@@ -27,3 +27,6 @@ To Clean URL
 
 - sudo nano /etc/apache2/apache2.conf
 - change "AllowOverride None” to “AllowOverride All” 
+
+To install composer
+https://linuxhint.com/install-php-composer-raspberry-pi/
