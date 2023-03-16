@@ -21,3 +21,9 @@ To install Drupal 9
 
 
 Drupal on docker - https://stephencross.com/2022/02/04/drupal-development-on-a-raspberry-pi/
+
+
+To Clean URL
+
+- sudo nano /etc/apache2/apache2.conf
+- change "AllowOverride None” to “AllowOverride All” 
