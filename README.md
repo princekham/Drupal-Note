@@ -39,3 +39,4 @@ $settings['trusted_host_patterns'] = array(
   '^192\.168\.1\.131$',
 );
 
+The file is located in "sites/default"
