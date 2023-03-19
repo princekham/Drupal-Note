@@ -40,3 +40,7 @@ $settings['trusted_host_patterns'] = array(
 );
 
 The file is located in "sites/default"
+
+Module Added 
+- Pathauto
+- Redirect
