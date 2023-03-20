@@ -44,3 +44,4 @@ The file is located in "sites/default"
 Module Added 
 - Pathauto
 - Redirect
+-token
