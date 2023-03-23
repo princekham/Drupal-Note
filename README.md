@@ -44,4 +44,8 @@ The file is located in "sites/default"
 Module Added 
 - Pathauto
 - Redirect
--token
+- token
+CSS in Drupal
+- Layout Builder
+- Asset Injector
+
