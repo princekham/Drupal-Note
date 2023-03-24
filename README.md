@@ -49,3 +49,9 @@ CSS in Drupal
 - Layout Builder
 - Asset Injector
 
+Setting Location Popup in Google map
+
+<b>Hello, this is a marker popup!</b><br><a href='https://www.google.com/maps?q=[node:field_location:lat],[node:field_location:lon]' target='_blank'>View on Google Maps</a>");
+
+
+
