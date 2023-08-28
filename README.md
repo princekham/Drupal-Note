@@ -33,7 +33,7 @@ https://linuxhint.com/install-php-composer-raspberry-pi/
 
 settings.php Configuration
 - The settings.php file is located in the sites/default directory of your Drupal installation. If you have a multi-site installation, you may have multiple settings.php files located in different directories within the sites directory
-- put the following codes
+- put the following codes (it is located at var/www/html/sites/default)
 
 $settings['trusted_host_patterns'] = array(
   '^192\.168\.1\.131$',
