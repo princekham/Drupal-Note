@@ -31,6 +31,7 @@ sudo mv * /var/www/html/
   ```
   sudo apt-get install mariadb-server
   ```
+  - more about installing database at https://linuxhint.com/install-wordpress-raspberry-pi/
 
 - cd /path/to/drupal-x.y.z
 - php core/scripts/drupal quick-start
