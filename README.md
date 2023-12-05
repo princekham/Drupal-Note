@@ -6,7 +6,9 @@ I use Drupal 9 with PHP 8.1
 How to install Drupal
 Download and extract the Drupal package:
 - choose directory, create directory, then download with curl
-  ``` mkdir ~/drupal
+- 
+```
+mkdir ~/drupal
 cd ~/drupal
 ```
 - curl -sS https://ftp.drupal.org/files/projects/drupal-x.y.z.zip --output drupal-x.y.z.zip (at my time, the latest package is https://ftp.drupal.org/files/projects/drupal-9.5.11.zip)
@@ -24,6 +26,12 @@ rm drupal-9.5.11.zip
 sudo mv * /var/www/html/
 
 ```
+- Then, install Database by running
+
+  ```
+  sudo apt-get install mariadb-server
+  ```
+
 - cd /path/to/drupal-x.y.z
 - php core/scripts/drupal quick-start
 
