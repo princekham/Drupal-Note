@@ -31,8 +31,17 @@ sudo mv * /var/www/html/
   ```
   sudo apt-get install mariadb-server
   ```
-  - more about installing database at https://linuxhint.com/install-wordpress-raspberry-pi/
-
+- more about installing database at https://linuxhint.com/install-wordpress-raspberry-pi/
+- then for installing Drupal continue from https://linuxhint.com/install-drupal-raspberry-pi/
+- you have to create database user in the process
+```
+create user <Drupal_username>@localhost identified by '<Drupal_password>';
+create user test@localhost identified by '1qaz2wsx';
+grant all privileges on drupalDB.* to <Drupal_username>@localhost;
+grant all privileges on drupalDB.* to test@localhost;
+flush privileges;
+```
+- continue with : https://linuxhint.com/install-drupal-raspberry-pi/
 - cd /path/to/drupal-x.y.z
 - php core/scripts/drupal quick-start
 
