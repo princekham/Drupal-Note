@@ -5,11 +5,27 @@ I use Drupal 9 with PHP 8.1
 
 How to install Drupal
 Download and extract the Drupal package:
-- curl -sS https://ftp.drupal.org/files/projects/drupal-x.y.z.zip --output drupal-x.y.z.zip
+- choose directory, create directory, then download with curl
+  ``` mkdir ~/drupal
+cd ~/drupal
+```
+- curl -sS https://ftp.drupal.org/files/projects/drupal-x.y.z.zip --output drupal-x.y.z.zip (at my time, the latest package is https://ftp.drupal.org/files/projects/drupal-9.5.11.zip)
+- curl -sS https://ftp.drupal.org/files/projects/drupal-9.5.11.zip --output drupal-9.5.11.zip
 - unzip drupal-x.y.z.zip
+- unzip drupal-9.5.11.zip
+- then move to web hosting place: for apache - '/var/www/html/'
+- before moving delete the zip file by
+```
+rm drupal-x.x.x.tar.gz
+rm drupal-9.5.11.zip
+```
+- move the drupal folder (all in the directory) to web server root by
+```
+sudo mv * /var/www/html/
+
+```
 - cd /path/to/drupal-x.y.z
 - php core/scripts/drupal quick-start
-
 
 To remove directory
  rm -r veggies3
