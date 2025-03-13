@@ -93,7 +93,7 @@
 - Search for Drupal themes tailored for real estate (e.g., RE or Realty themes on Drupal.org or Themeforest).
 
 ## Third-Party Integrations
-###Google Maps API:
+### Google Maps API:
 - Required for Geolocation/Geofield modules (ensure API key setup).
 ### Mailchimp or SendGrid:
 - Integrate email newsletters for property updates.
